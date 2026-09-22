@@ -1,0 +1,9 @@
+{
+  "title": "GeoScale ML Health",
+  "panels": [
+    {"title": "Prediction requests", "type": "timeseries"},
+    {"title": "P95 latency", "type": "timeseries"},
+    {"title": "Error rate", "type": "timeseries"},
+    {"title": "Feature drift", "type": "timeseries"}
+  ]
+}

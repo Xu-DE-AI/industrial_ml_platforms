@@ -1,0 +1,14 @@
+name: ae_event
+version: 1
+
+fields:
+  event_id: int64
+  timestamp: datetime
+  sensor_id: string
+  region: string
+  pressure_mpa: float
+  injection_rate: float
+  magnitude: float
+  dt: float
+  z_fault_normal: float
+  future_risk_event: int

@@ -1,0 +1,6 @@
+# Conceptual OpenLineage configuration.
+# Connect Spark/Airflow/Flink jobs to Marquez/OpenLineage in a local lab.
+
+transport:
+  type: http
+  url: http://localhost:5000
